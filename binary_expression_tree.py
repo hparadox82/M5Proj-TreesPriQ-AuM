@@ -79,7 +79,7 @@ class BinaryExpressionTree:
             return left_val/right_val
         return 0
 
-    def infix_transv(self):
+    def infix_trav(self):
         #inorder transversal of infix
         if self.is_empty():
             return ""
@@ -96,7 +96,7 @@ class BinaryExpressionTree:
         right_str=self._inorder_recursive(node.right)
         return f"({left_str} {node.value} {right_str})"
 
-    def postfix_traversal(self):
+    def postfix_trav(self):
         #returns postfix using postorder traversal
         if self.is_empty():
             return ""
