@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="binary_expression_tree.py" />
+    <Compile Include="triage_sys.py" />
     <Compile Include="M5Proj_TreesPriQ_AuM.py" />
     <Compile Include="stack.py" />
   </ItemGroup>
